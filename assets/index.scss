@@ -1,19 +1,24 @@
 @font-face {
-    font-family: "Disans";
-    src: url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.eot");
+    font-family: "Google Sans";
+    src: url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.eot");
     src:
-        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.eot?#iefix") format("embedded-opentype"),
-        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.woff2") format("woff2"),
-        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.woff") format("woff"),
-        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.ttf") format("truetype"),
-        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.svg#Disans") format("svg");
+        url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.eot?#iefix") format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.ttf") format("truetype"),
+        url("https://db.onlinewebfonts.com/t/64f8e61e075d1dbd7d274c9815f4fb05.svg#Google Sans 18pt") format("svg");
 }
 
 * {
-    font-family: "Disans", sans-serif;
+    font-family: "Google Sans", sans-serif;
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
 }

@@ -10,4 +10,18 @@ export default defineNuxtConfig({
       "process.env.DEBUG": false,
     },
   },
+  runtimeConfig: {
+    public: {
+      SUPABASE_URL: process.env.SUPABASE_URL,
+      SUPABASE_KEY: process.env.SUPABASE_KEY,
+      service_role: process.env.service_role,
+    },
+  },
+  imports: {
+    dirs: [
+      "composables",
+      "composables/*/index.{ts,js,mjs,mts}",
+      "composables/**",
+    ],
+  },
 });
