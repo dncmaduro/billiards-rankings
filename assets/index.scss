@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Disans";
+    src: url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.eot");
+    src:
+        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.eot?#iefix") format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.woff2") format("woff2"),
+        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.woff") format("woff"),
+        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.ttf") format("truetype"),
+        url("https://db.onlinewebfonts.com/t/0d2db2ad969e310d356e59b56d1868c6.svg#Disans") format("svg");
+}
+
+* {
+    font-family: "Disans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
