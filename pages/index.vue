@@ -1,5 +1,5 @@
 <template>
-  <v-row class="mt-10">
+  <v-row class="mt-16">
     <v-col class="text-center">
       <span class="title">Rankings</span>
     </v-col>
@@ -8,7 +8,8 @@
     <v-col>
       <v-card
         v-for="(player, index) in data.players"
-        class="px-10 mx-auto w-50 mb-2"
+        class="pl-10 px-4 mx-auto mb-2"
+        :key="index"
       >
         <v-card-title>
           <span>{{ index + 1 }}</span>

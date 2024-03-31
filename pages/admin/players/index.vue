@@ -1,7 +1,7 @@
 <template>
   <v-row v-if="store.admin">
     <v-col>
-      <v-form class="w-50 mx-auto mt-10" @submit="submit">
+      <v-form class="mx-auto mt-10" @submit="submit">
         <v-text-field label="Name" variant="underlined" v-model="form.name" />
       </v-form>
     </v-col>

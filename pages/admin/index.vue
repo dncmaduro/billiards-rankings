@@ -1,6 +1,8 @@
 <template>
-  <div v-if="!store.admin">You have to be verified as Admin to access!</div>
-  <div v-else>Welcome back, Admin!</div>
+  <div class="text-center">
+    <div v-if="!store.admin">You have to be verified as Admin to access!</div>
+    <div v-else>Welcome back, Admin!</div>
+  </div>
 </template>
 
 <script setup lang="ts">

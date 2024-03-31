@@ -1,7 +1,7 @@
 <template>
   <v-row v-if="store.admin">
     <v-col>
-      <v-form class="w-25 mx-auto mt-10" @submit="submit">
+      <v-form class="mx-auto mt-10" @submit="submit">
         <v-autocomplete
           v-model="form.player"
           :items="playerItems"

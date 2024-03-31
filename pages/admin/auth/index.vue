@@ -1,5 +1,5 @@
 <template>
-  <v-row class="w-50 mx-auto mt-10">
+  <v-row class="mx-auto mt-10">
     <v-form class="w-100" @submit="submit">
       <v-text-field
         label="Admin Code"
