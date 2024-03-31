@@ -6,6 +6,9 @@ export const getRankings = async () => {
     config.public.SUPABASE_URL,
     config.public.service_role
   );
-  const { data } = await supabase.from("player").select("*");
+  const { data } = await supabase
+    .from("player")
+    .select("*")
+    .order("points", { ascending: false });
   return data;
 };
