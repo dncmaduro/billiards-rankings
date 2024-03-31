@@ -1,5 +1,5 @@
 <template>
-  <v-row>
+  <v-row v-if="store.admin">
     <v-col>
       <v-form class="w-25 mx-auto mt-10" @submit="submit">
         <v-text-field
@@ -16,9 +16,18 @@
       </v-form>
     </v-col>
   </v-row>
+  <div v-else>You have to be verified as Admin to access!</div>
 </template>
 
 <script setup lang="ts">
+import { useStore } from "~/stores/index";
+const store = useStore();
+definePageMeta({
+  layout: "default",
+});
+if (store.admin) {
+  setPageLayout("admin");
+}
 const form = ref<IForm>({
   id: 0,
   title: "",
