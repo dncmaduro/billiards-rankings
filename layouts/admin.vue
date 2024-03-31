@@ -7,7 +7,10 @@
         <nuxt-link to="/"> Rankings </nuxt-link>
       </v-btn>
       <v-btn>
-        <nuxt-link to="/admin/auth"> Admin </nuxt-link>
+        <nuxt-link to="/admin/update"> Update Points </nuxt-link>
+      </v-btn>
+      <v-btn>
+        <nuxt-link to="/admin/posts"> Posts </nuxt-link>
       </v-btn>
     </v-toolbar>
     <slot />
